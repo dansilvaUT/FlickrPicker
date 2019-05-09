@@ -1,0 +1,97 @@
+/*
+*    VARIABLES
+*/
+@background-color: #779cf9;
+@font-family: 'Gugi', cursive;
+@margin: 0 auto;
+
+body {
+    font-family: @font-family;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+.main {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.main-header {
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 0 0 3px #bec1c6, 0 0 3px #35383d;
+}
+
+.secondary {
+    margin: @margin;
+    padding: 20px;
+    max-width: 500px;
+    border: 5px solid rgba(0, 102, 63, .2);
+    background-color: #f2f2f2;
+}
+
+#searchForm {
+    margin: @margin;
+}
+
+#subject {
+    width: 100%;
+    margin: 10px auto;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.button {
+    width: 30%;  
+    padding: 15px 0px;
+    display: block;
+    margin: @margin;
+    font-family: @font-family;
+    color: white;
+    background-color: @background-color;
+    border: none;
+    border-radius: 2px;
+}
+
+
+/*
+*    ANIMATION STYLES FOR BACKGROUND
+*/
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
